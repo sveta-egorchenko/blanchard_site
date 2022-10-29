@@ -221,7 +221,7 @@
 
   .gallery {
     min-height: 360px;
-    background-image: url('../img/gallery/gallery-bg768.jpg');
+    background-image: url('../img/gallery/bgi_gallery-1024.jpg');
   }
 
   .gallery__container {
@@ -234,13 +234,10 @@
   }
 
   .gallery-swiper {
-    height: 315px;
+    height: auto;
     z-index: 0;
   }
 
-  .gallery-nav__item {
-    height: 314px;
-  }
 
   .gallery__checkboxes {
     margin-bottom: 26px;
@@ -364,7 +361,7 @@
   }
 
   .event-card__content {
-    padding: 17px 33px 39px 35px;
+    padding: 17px 15px 39px 15px;
   }
 
   .event-card__title {
@@ -541,7 +538,7 @@
   }
 
   .gallery {
-    background-image: url("../img/gallery/gallery-bg768.jpg");
+    background-image: url("../img/gallery/bgi_gallery-768.jpg");
   }
 
   .gallery__container {
@@ -550,13 +547,9 @@
   }
 
   .gallery-swiper {
-    height: 330px;
     z-index: 0;
   }
 
-  .gallery-nav__item {
-    height: 330px
-  }
 
   .gallery__left-bottom {
     margin-bottom: 11px;
@@ -671,7 +664,7 @@
   }
 
   .event-card__content {
-    padding: 15px 19px 46px 35px;
+    padding: 15px 25px 46px 25px;
     min-height: 423px;
   }
 
@@ -869,7 +862,7 @@
   }
 
   .event-card__content {
-    padding: 17px 7px 50px 23px;
+    padding: 17px 15px 50px 20px;
     min-height: 416px;
   }
 
@@ -1155,7 +1148,7 @@
   .gallery {
     padding-top: 50px;
     padding-bottom: 31px;
-    background-image: url('../img/gallery/gallery-bg320.jpg');
+    background-image: url('../img/gallery/bgi_gallery-mob.jpg');
   }
 
   .gallery__title {
@@ -1177,14 +1170,10 @@
   }
 
   .gallery-swiper {
-    height: 367px;
     margin-bottom: 18px;
     order: 1;
   }
 
-  .gallery-nav__item {
-    height: 367px;
-  }
 
   .gallery-nav__item:not(:last-child) {
     margin-right: 0;

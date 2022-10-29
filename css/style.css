@@ -71,7 +71,6 @@ a {
 
 body {
   min-width: 320px;
-  max-width: 1920px;
   margin: 0 auto;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -572,7 +571,7 @@ search-form__input::-ms-input-placeholder:active {
   left: 0;
   top: 176%;
   width: 300px;
-  height: 300px;
+  max-height: 300px;
   padding: 0 40px;
   background: rgba(0, 0, 0, 0.6);
   display: none;
@@ -662,10 +661,12 @@ search-form__input::-ms-input-placeholder:active {
 
 .simplebar-track.simplebar-vertical {
   width: 2px;
+  height: 220px;
   right: 19px;
   top: 40px;
   bottom: 40px;
   background-color: var(--color-black);
+  overflow: hidden;
 }
 
 .simplebar-scrollbar {
@@ -708,7 +709,7 @@ search-form__input::-ms-input-placeholder:active {
   width: 100%;
   height: 105%;
   border-bottom: 1px solid white;
-  background-color: transparent;
+  background-color: var(--color-purple);
   z-index: -1;
 }
 
@@ -906,7 +907,7 @@ search-form__input::-ms-input-placeholder:active {
 /* gallery */
 .gallery {
   background-color: #000;
-  background-image: url('../img/gallery/gallery-bg.jpg');
+  background-image: url('../img/gallery/bgi_gallery.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1218,9 +1219,7 @@ search-form__input::-ms-input-placeholder:active {
 
 .gallery-nav__item {
   display: block;
-  height: 350px;
-  -o-object-fit: cover;
-  object-fit: cover;
+  height: auto;
   cursor: pointer;
 }
 

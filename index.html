@@ -7,27 +7,13 @@
   <link rel="icon" href="img/favicon.svg" type="image/png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/normalize.css">
-  <!-- <link rel="stylesheet" href="script/pixel-glass-js-master/styles.css"> -->
-  <link rel="stylesheet" href="css/simplebar.css" />
-  <link rel="stylesheet" href="css/tippy.css" />
+  <link rel="stylesheet" href="css/simplebar.css">
+  <link rel="stylesheet" href="css/tippy.css">
   <link rel="stylesheet" href="css/swiper.css">
   <link rel="stylesheet" href="css/choices.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
   <title>Blanchard — художественная галерея</title>
-
-  <!-- <style>
-    HTML {
-      background-repeat: no-repeat;
-      background-position: 50% 0;
-      /* Mobile layout by default */
-      background-image: url("1920.png");
-    }
-  </style> -->
-
-  <!-- <script src="script/pixel-glass-js-master/script.js" defer></script> -->
-  <script src="https://api-maps.yandex.ru/2.1/?apikey=вашAPI-ключ&lang=ru_RU" defer></script>
-  <script src="script/map.js" defer></script>
   <script src="script/swiper.js" defer></script>
   <script src="https://code.jquery.com/jquery-3.6.0.js" defer></script>
   <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js" defer></script>
@@ -301,7 +287,7 @@
             </select>
           </div>
           <div class="gallery__left-bottom">
-            <form action="" method="post">
+            <form method="post">
               <div class="gallery__checkboxes">
                 <label class="checkbox-wrap">
                   <input class="checkbox visually-hidden" type="checkbox" name="check-two">
@@ -346,36 +332,48 @@
             <div class="swiper-wrapper gallery-nav">
               <div class="modal-btn swiper-slide gallery-nav__item" data-path="one" tabindex="0">
                 <picture>
+                  <source srcset="img/gallery/gallery1-1024.jpg" media="(max-width: 1190px)">
+                  <source srcset="img/gallery/gallery1-768.jpg" media="(max-width: 767px)">
                   <source srcset="img/gallery/gallery1-mob.jpg" media="(max-width: 530px)">
                   <img src="img/gallery/gallery1.jpg" class="gallery-nav__item-img" alt="Картина Казимира Малевича">
                 </picture>
               </div>
               <div class="modal-btn swiper-slide gallery-nav__item" data-path="two" tabindex="0">
                 <picture>
+                  <source srcset="img/gallery/gallery2-1024.jpg" media="(max-width: 1190px)">
+                  <source srcset="img/gallery/gallery2-768.jpg" media="(max-width: 767px)">
                   <source srcset="img/gallery/gallery2-mob.jpg" media="(max-width: 530px)">
                   <img src="img/gallery/gallery2.jpg" class="gallery-nav__item-img" alt="Картина Казимира Малевича">
                 </picture>
               </div>
               <div class="modal-btn swiper-slide gallery-nav__item" data-path="three" tabindex="0">
                 <picture>
+                  <source srcset="img/gallery/gallery3-1024.jpg" media="(max-width: 1190px)">
+                  <source srcset="img/gallery/gallery3-768.jpg" media="(max-width: 767px)">
                   <source srcset="img/gallery/gallery3-mob.jpg" media="(max-width: 530px)">
                   <img src="img/gallery/gallery3.jpg" class="gallery-nav__item-img" alt="Картина Казимира Малевича">
                 </picture>
               </div>
               <div class="swiper-slide gallery-nav__item" tabindex="0">
                 <picture>
+                  <source srcset="img/gallery/gallery4-1024.jpg" media="(max-width: 1190px)">
+                  <source srcset="img/gallery/gallery4-768.jpg" media="(max-width: 767px)">
                   <source srcset="img/gallery/gallery4-mob.jpg" media="(max-width: 530px)">
                   <img src="img/gallery/gallery4.jpg" class="gallery-nav__item-img" alt="Картина Казимира Малевича">
                 </picture>
               </div>
               <div class="swiper-slide gallery-nav__item" tabindex="0">
                 <picture>
+                  <source srcset="img/gallery/gallery5-1024.jpg" media="(max-width: 1190px)">
+                  <source srcset="img/gallery/gallery5-768.jpg" media="(max-width: 767px)">
                   <source srcset="img/gallery/gallery5-mob.jpg" media="(max-width: 530px)">
                   <img src="img/gallery/gallery5.jpg" class="gallery-nav__item-img" alt="Картина Казимира Малевича">
                 </picture>
               </div>
               <div class="swiper-slide gallery-nav__item" tabindex="0">
                 <picture>
+                  <source srcset="img/gallery/gallery6-1024.jpg" media="(max-width: 1190px)">
+                  <source srcset="img/gallery/gallery6-768.jpg" media="(max-width: 767px)">
                   <source srcset="img/gallery/gallery6-mob.jpg" media="(max-width: 530px)">
                   <img src="img/gallery/gallery6.jpg" class="gallery-nav__item-img" alt="Картина Казимира Малевича">
                 </picture>
@@ -1158,7 +1156,8 @@
     </div>
 
   </main>
-
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=вашAPI-ключ&lang=ru_RU"></script>
+  <script src="script/map.js"></script>
 </body>
 
 </html>
